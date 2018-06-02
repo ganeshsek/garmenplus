@@ -1,0 +1,53 @@
+@charset "utf-8";
+@media only screen and (max-width: 1200px) {
+.clients-bx {    font-size: 12px;}
+}
+@media only screen and (max-width: 1169px) {
+.container { width: 100%; }
+}
+ @media only screen and (max-width: 1023px) {
+ul.info-links li { padding-left: 15px; }
+.banner-caption h1 { font-size: 32px; line-height: 34px; }
+.banner-caption p { font-size: 22px; }
+ul.con-txt li h3 { font-size: 28px; }
+}
+ @media only screen and (max-width: 900px) {
+.header .navbar-default .navbar-nav > li > a { font-size: 12px; padding-left: 8px; }
+.clients-bx { font-size: 10px;}
+}
+ @media only screen and (max-width: 767px) {
+.header, .header-fixed { overflow: visible; position: static; transition: none; -moz-transition: none; -webkit-transition: none; height: auto; }
+.header .navbar-header { position: static; width: auto; }
+.header .tp-lft { text-align: center; width: 100%; }
+.header .tp-rgt { padding-top: 10px; text-align: center; width: 100%; }
+ul.info-links li { padding-bottom: 10px; }
+.nav-full .navbar-default { padding-top: 8px; }
+.header .navbar-default .navbar-toggle { background-color: #333; border-color: #333; margin-top: 21px; }
+.header .navbar-default .navbar-toggle .icon-bar { background-color: #ffffff; }
+.banner-caption { padding: 20px 0; position: static; margin: 0; background-color: #333; }
+.section-four .product { margin-bottom: 15px; }
+ul.coverage-three-bx li { display: block; width: 100%; }
+ul.coverage-three-bx li.mid { border-bottom: 1px solid #cccccc; border-left: none; border-right: none; padding: 15px 0; margin: 15px 0; border-top: 1px solid #cccccc; }
+.banner-caption h1 { font-size: 20px; line-height: 28px; }
+.banner-caption p { font-size: 15px; }
+.banner-caption .btn { max-width: 174px; min-height: 40px; font-size: 14px; line-height: 36px; }
+.pull-left.foot-lft { width: 100%; }
+ul.copyright-link li { margin-bottom: 15px; }
+.pull-right.foot-rgt { width: 100%; }
+.inner-banner .bnr-image img { height: 150px; max-width: inherit; }
+.inner-banner .banner-caption{top: 36%;}
+.pagination-row{text-align:center;}
+.pagination-row .compan-txt, .pagination-row .pull-right{width:100%;}
+
+.ser-row { padding-top: 30px;}
+.pull-right .ser-image { margin-bottom: 20px;}
+.clients-bx {font-size: 13px; white-space: normal;}
+.clt-image{padding: 10px 0; height: auto;}
+
+.description h3, .ser-row .description h3{padding-top: 30px;}
+.search-sec .form-control{margin-bottom: 15px;}
+}
+
+@media only screen and (max-width: 480px) {
+	.inner-banner .bnr-image img {width: auto;}
+}
